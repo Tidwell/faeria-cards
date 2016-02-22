@@ -16,7 +16,7 @@ Download and extract DisUnity to ./disunity_v0.5.0 from `https://github.com/ata4
 
 Copy the asset file
 
-`cp ~/Library/Application Support/Steam/SteamApps/common/Faeria/Faeria.app/Contents/Resources/Data/resources.assets ./`
+`cp ~/Library/Application\Support/Steam/SteamApps/common/Faeria/Faeria.app/Contents/Resources/Data/resources.assets ./`
 
 (I have no idea where this is on windows, happy hunting!)
 
