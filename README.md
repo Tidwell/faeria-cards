@@ -1,32 +1,42 @@
 Get the cardlist from the faeria unity files
 --
-This is messy as shit.  Since disunity doesn't extract from Unity5 asset files, we just parse
+
+Since disunity doesn't extract from Unity5 asset files, we just parse
 the entire contents of the .asset file as ascii and hunt for the cardlist manually.
 
-It will break when things are updated - msg me if an update comes out and I haven't released a fix.
+It will break when things are updated.
 
 Hopefully, I can just delete this repo when Abrakam releases an official API or card list resource.
 
 The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-cards/)
 
-Install
+##Install
 
 `npm install`
 
 Download and extract DisUnity to ./disunity_v0.5.0 from `https://github.com/ata4/disunity/releases`
 
-Copy the `resources.assets` file to `./` from `~/Library/Application Support/Steam/SteamApps/common/Faeria/Faeria.app/Contents/Resources/Data`
+Copy the asset file
 
-Get the raw dump
+`cp ~/Library/Application Support/Steam/SteamApps/common/Faeria/Faeria.app/Contents/Resources/Data/resources.assets ./`
+
+(I have no idea where this is on windows, happy hunting!)
+
+Run disunity to get the raw hex dump from the asset file:
 
 `java -jar ./disunity_v0.5.0/disunity.jar asset unpack resources.assets`
 
-Convert the hex dump in `/resources/object_data.block` to the `build/output.js` via `npm start`
+Convert the hex dump in `/resources/object_data.block` to the `build/output.js`
 
-You can view the dump by opening `./public/index.html`
+`npm start`
 
 
-Deploy github page
+##View
+
+open `./public/index.html` or `./build/output.json` for the nice pretty version.
+
+
+## Deploy Demo
 
 Github pages deploy
 
