@@ -5,7 +5,7 @@ the entire contents of the .asset file as ascii and hunt for the cardlist manual
 
 It will break when things are updated - msg me if an update comes out and I haven't released a fix.
 
-The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-ripper/)
+The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-cards/)
 
 Install
 
