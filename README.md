@@ -12,8 +12,6 @@ The lastest version can be found [on the github page demo](http://tidwell.github
 
 ##Install
 
-`npm install`
-
 Download and extract DisUnity to ./disunity_v0.5.0 from `https://github.com/ata4/disunity/releases`
 
 Copy the asset file
@@ -29,6 +27,11 @@ Run disunity to get the raw hex dump from the asset file:
 Convert the hex dump in `/resources/object_data.block` to the `build/output.js`
 
 `npm start`
+
+
+The copy/disunity/npm tasks are wrapped up in runner.sh to do the whole thing rapidly.
+
+`./runner.sh`
 
 
 ##View
