@@ -1,20 +1,19 @@
 <html>
 	<head>
 		<style>
-			body {
-				padding: 1em;
-			}
-			/*.id {
-				display: none;
-			}
-			.color {
-				display: none;
-			}
-			.questReward {
-				display: none;
-			}*/
+		body {
+			padding: 1em;
+		}
+		</style>
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css" />
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.1/css/fixedHeader.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.0.2/css/responsive.dataTables.min.css">
+		<style>
 			.name {
-				min-width: 15em;
+				min-width: 10%;
+			}
+			thead .faeriaCost, thead .islands, thead .forests, thead .mountains, thead .deserts, thead .attack, thead .health, thead .questReward {
+				font-size: .75em;
 			}
 			.faeriaCost, .islands, .forests, .mountains, .deserts, .attack, .health, .questReward {
 				text-align: center;
@@ -26,7 +25,7 @@
 				background-color: rgba(190,115,115,1);
 			}
 			td.islands, td.forests, td.mountains, td.deserts, .faeriaCost, .attack, .health {
-				font-weight: bold;		
+				
 			}
 			.faeriaCost {
 				background-color: rgb(95,200,200);
@@ -53,13 +52,17 @@
 			<br />
 			Last generated from Faeria version: 0.5.5893.24555 - <a href="https://raw.githubusercontent.com/Tidwell/faeria-cards/master/build/output.json">Raw .json</a>
 		</p>
-		<table>
+		<table class="display responsive" cellspacing="0" width="100%">
 			<thead>
 				<tr></tr>
 			</thead>
 			<tbody></tbody>
 		</table>
 		
+		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+		<script src="https://cdn.datatables.net/fixedheader/3.1.1/js/dataTables.fixedHeader.min.js"></script>
+		<script src="https://cdn.datatables.net/responsive/2.0.2/js/dataTables.responsive.min.js"></script>
 		<script src="data.js"></script>
 		<script>
 			data.forEach(function(c){
@@ -82,6 +85,15 @@
 				tablehtml += '</tr>';
 			});
 			table.innerHTML = tablehtml;
+
+			$(function() {
+				$('table').DataTable({
+					lengthMenu: [[-1, 50], ['All', 50]],
+					responsive: true,
+					fixedHeader: true,
+					order: [[1, 'asc'], [4, 'asc'], [2, 'asc']]
+				});
+			});
 		</script>
 		<hr />
 		All cardnames/content/etc is owned by <a href="https://www.faeria.com/" target="_new">Abrakam</a>.
