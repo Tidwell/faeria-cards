@@ -5,6 +5,8 @@ the entire contents of the .asset file as ascii and hunt for the cardlist manual
 
 It will break when things are updated - msg me if an update comes out and I haven't released a fix.
 
+Hopefully, I can just delete this repo when Abrakam releases an official API or card list resource.
+
 The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-cards/)
 
 Install
