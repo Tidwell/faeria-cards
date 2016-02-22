@@ -1,0 +1,75 @@
+<html>
+	<body>
+		<style>
+			.id {
+				display: none;
+			}
+			.color {
+				display: none;
+			}
+			.questReward {
+				display: none;
+			}
+			.name {
+				min-width: 15em;
+			}
+			.faeriaCost, .islands, .forests, .mountains, .deserts, .attack, .health, .questReward {
+				text-align: center;
+			}
+			.attack {
+				background-color: rgba(250,220,80,1);
+			}
+			.health {
+				background-color: rgba(190,115,115,1);
+			}
+			td.islands, td.forests, td.mountains, td.deserts, .faeriaCost, .attack, .health {
+				font-weight: bold;		
+			}
+			.faeriaCost {
+				background-color: rgb(95,200,200);
+			}
+			.islands {
+				background-color: rgb(50,85,175);
+			}
+			.forests {
+				background-color: rgb(65,110,20);
+			}
+			.mountains {
+				background-color: rgb(175,35,75);
+			}
+			.deserts {
+				background-color: rgb(230,185,85);
+			}
+		</style>
+		<table>
+			<thead>
+				<tr></tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		
+		<script src="data.js"></script>
+		<script>
+			data.forEach(function(c){
+				c.text = c.text.replace(/\{/g, '<strong>');
+				c.text = c.text.replace(/\}/g, '</strong>');
+				c.text = c.text.replace(/\|/g, ' ');
+			});		
+			var hdr = document.querySelectorAll('table thead tr')[0];
+			var table = document.querySelectorAll('table tbody')[0];
+			for (var prop in data[0]) {
+				hdr.innerHTML += '<th class="'+prop+'">'+prop+'</th>';
+			}
+			
+			var tablehtml = '';
+			data.forEach(function(c) {
+				tablehtml += '<tr>';
+				for (var prop in c) {
+					tablehtml += '<td class="'+prop+'">'+c[prop]+'</td>';
+				}
+				tablehtml += '</tr>';
+			});
+			table.innerHTML = tablehtml;
+		</script>
+	</body>
+</html>
