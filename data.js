@@ -13,7 +13,9 @@ var data=[
     "health": 1,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100001,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 2,
@@ -29,7 +31,9 @@ var data=[
     "health": 2,
     "text": "{ranged_attack}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 3,
@@ -45,7 +49,9 @@ var data=[
     "health": 6,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 4,
@@ -61,7 +67,9 @@ var data=[
     "health": 1,
     "text": "{charge|2}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 9,
@@ -77,7 +85,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Trigger all your production abilities.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 10,
@@ -93,7 +103,9 @@ var data=[
     "health": 0,
     "text": "Add two 2/2 <b>Imperial Guards</b> with {taunt} to your hand.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 11,
@@ -109,7 +121,9 @@ var data=[
     "health": 10,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100003,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 12,
@@ -125,7 +139,9 @@ var data=[
     "health": 3,
     "text": "{production} - A random friendly creature gains +1/+0.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100003,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 13,
@@ -141,7 +157,9 @@ var data=[
     "health": 4,
     "text": "{combat} - Gain {faeria|1}.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 14,
@@ -157,7 +175,9 @@ var data=[
     "health": 5,
     "text": "{protection}, {charge|2}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 15,
@@ -173,7 +193,9 @@ var data=[
     "health": 0,
     "text": "Give a creature {protection}.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 16,
@@ -189,7 +211,9 @@ var data=[
     "health": 2,
     "text": "{taunt}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 22,
@@ -205,7 +229,9 @@ var data=[
     "health": 4,
     "text": "{haste}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100004,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 23,
@@ -221,7 +247,9 @@ var data=[
     "health": 0,
     "text": "Give a creature +1/+1.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100004,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 24,
@@ -237,7 +265,9 @@ var data=[
     "health": 0,
     "text": "Deal 1 damage to a creature.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100004,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 29,
@@ -253,7 +283,9 @@ var data=[
     "health": 4,
     "text": "Gain +3/+0 during your turn.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 30,
@@ -269,7 +301,9 @@ var data=[
     "health": 4,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100001,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 32,
@@ -285,7 +319,9 @@ var data=[
     "health": 0,
     "text": "Summon three 2/4 <b>Prairie Yaks</b> with {haste}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 33,
@@ -301,7 +337,9 @@ var data=[
     "health": 0,
     "text": "Deal 2 damage to a creature. If it's a neutral creature, deal 5.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 34,
@@ -317,7 +355,9 @@ var data=[
     "health": 1,
     "text": "{protection}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 35,
@@ -333,7 +373,9 @@ var data=[
     "health": 6,
     "text": "{taunt} {combat} - Gain {faeria|1}.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 36,
@@ -349,7 +391,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Gain control of an adjacent enemy creature as long as Magda is on the battlefield.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 37,
@@ -365,7 +409,9 @@ var data=[
     "health": 2,
     "text": "{taunt} {gift} - A random creature in your hand gains +2/+2.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 38,
@@ -381,7 +427,9 @@ var data=[
     "health": 6,
     "text": "{taunt} {combat} - Draw a card.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 39,
@@ -397,7 +445,9 @@ var data=[
     "health": 1,
     "text": "The first time this creature fights another creature and survives, it gains +2/+2 and {charge|2}.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 40,
@@ -413,7 +463,9 @@ var data=[
     "health": 8,
     "text": "{charge|3} {combat} - Draw a card, it costs {faeria|0}.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 41,
@@ -429,7 +481,9 @@ var data=[
     "health": 1,
     "text": "{last_words} - Deal 2 damage to ALL creatures.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 42,
@@ -445,7 +499,9 @@ var data=[
     "health": 6,
     "text": "{ranged_attack}",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 43,
@@ -461,7 +517,9 @@ var data=[
     "health": 3,
     "text": "Ignores all damage equal to 4 or more.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 44,
@@ -477,7 +535,9 @@ var data=[
     "health": 0,
     "text": "Deal 1 damage to ALL creatures.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 45,
@@ -493,7 +553,9 @@ var data=[
     "health": 1,
     "text": "{options|Draw a free Safeguard.|Draw a free Punishment.} Add a <b>Safeguard</b> to your hand. It costs {faeria|0}. Add a <b>Punishment</b> to your hand. It costs {faeria|0}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 46,
@@ -509,7 +571,9 @@ var data=[
     "health": 1,
     "text": "{last_words} - Create a lake, a forest, a mountain and a desert at random.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 47,
@@ -525,7 +589,9 @@ var data=[
     "health": 5,
     "text": "{taunt}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 48,
@@ -541,7 +607,9 @@ var data=[
     "health": 1,
     "text": "{last_words} - Draw 2 cards.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 49,
@@ -557,7 +625,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Each player draws 2 cards and gains 2 Life.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 50,
@@ -573,7 +643,9 @@ var data=[
     "health": 4,
     "text": "Whenever you draw a card, gain +1/+0.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 51,
@@ -589,7 +661,9 @@ var data=[
     "health": 5,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100003,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 52,
@@ -605,7 +679,9 @@ var data=[
     "health": 1,
     "text": "{protection}",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 53,
@@ -621,7 +697,9 @@ var data=[
     "health": 0,
     "text": "Add the four <b>Dragons</b> to your hand. They cost {faeria|4} less.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 54,
@@ -637,7 +715,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Gain +2/+2 for each adjacent enemy creature.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 55,
@@ -653,7 +733,9 @@ var data=[
     "health": 4,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100002,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 56,
@@ -669,7 +751,9 @@ var data=[
     "health": 4,
     "text": "{gift} - Each player draws a card. They cost {faeria|0}.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 57,
@@ -685,7 +769,9 @@ var data=[
     "health": 0,
     "text": "Draw 2 cards.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 58,
@@ -701,7 +787,9 @@ var data=[
     "health": 5,
     "text": "",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100001,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 59,
@@ -717,7 +805,9 @@ var data=[
     "health": 5,
     "text": "{taunt} Can only be summoned adjacent to your orb.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 60,
@@ -733,7 +823,9 @@ var data=[
     "health": 2,
     "text": "{deathtouch}",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 61,
@@ -749,7 +841,9 @@ var data=[
     "health": 5,
     "text": "{last_words} - Your opponent draws a card. It costs {faeria|3} less.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 62,
@@ -765,7 +859,9 @@ var data=[
     "health": 1,
     "text": "Whenever this creature gathers faeria, a random creature you control gains +1/+1.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 63,
@@ -781,7 +877,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Add a <b>Campfire</b> to your hand.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 64,
@@ -797,7 +895,9 @@ var data=[
     "health": 3,
     "text": "The first time a friendly creature dies each turn, deal 2 damage to an enemy god.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 65,
@@ -813,7 +913,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Gain +1/+1 if you control 2 lakes. Gain +0/+2 if you control 2 forests.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 66,
@@ -829,7 +931,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Gain +1/+1 if you control 2 lakes. Gain +2/+0 if you control 2 mountains. ",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 67,
@@ -845,7 +949,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Gain +1/+1 if you control 2 lakes. Gain +1/+1 you control 2 deserts. ",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 68,
@@ -861,7 +967,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Gain +2/+0 if you control 2 mountains. Gain +0/+2 if you control 2 forests. ",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 69,
@@ -877,7 +985,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Gain +1/+1 if you control 2 deserts. Gain +1/+1 if you control 2 forests. ",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 70,
@@ -893,7 +1003,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Gain +2/+0 if you control 2 mountains. Gain +1/+1 if you control 2 deserts. ",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 71,
@@ -909,7 +1021,9 @@ var data=[
     "health": 1,
     "text": "{aquatic}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100009,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 72,
@@ -925,7 +1039,9 @@ var data=[
     "health": 1,
     "text": "{options|Gains +2/+2|Draw 2 cards.} Gain +2/+2. Draw 2 cards.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 73,
@@ -941,7 +1057,9 @@ var data=[
     "health": 3,
     "text": "{production} - Gain {faeria|3}. Deal 1 damage to this structure.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 74,
@@ -957,7 +1075,9 @@ var data=[
     "health": 6,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100009,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 75,
@@ -973,7 +1093,9 @@ var data=[
     "health": 5,
     "text": "{gift} - Another creature's Attack becomes equal to its Life.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 76,
@@ -989,7 +1111,9 @@ var data=[
     "health": 2,
     "text": "{aquatic}, {charge|3}",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100010,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 77,
@@ -1005,7 +1129,9 @@ var data=[
     "health": 5,
     "text": "{gift} - Give an adjacent friendly creature {protection}.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100010,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 82,
@@ -1021,7 +1147,9 @@ var data=[
     "health": 1,
     "text": "{gift} - Copies the Life of a friendly creature.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 83,
@@ -1037,7 +1165,9 @@ var data=[
     "health": 4,
     "text": "{jump}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100011,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 84,
@@ -1053,7 +1183,9 @@ var data=[
     "health": 5,
     "text": "{gift} - Gain Attack equal to your opponent's faeria pool.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 85,
@@ -1069,7 +1201,9 @@ var data=[
     "health": 4,
     "text": "{gift} - Transform another creature into a 4/4 <b>Mirror Phantasm</b>.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 86,
@@ -1085,7 +1219,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Add a <b>Triton Banquet</b> to your hand.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 87,
@@ -1101,7 +1237,9 @@ var data=[
     "health": 2,
     "text": "{jump}, {haste}",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 88,
@@ -1117,7 +1255,9 @@ var data=[
     "health": 0,
     "text": "Transform a creature into a 2/2 <b>Frog</b> with {jump}.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100011,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 93,
@@ -1133,7 +1273,9 @@ var data=[
     "health": 0,
     "text": "A creature's Attack becomes equal to its Life.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 94,
@@ -1149,7 +1291,9 @@ var data=[
     "health": 0,
     "text": "Add a copy of a creature to your hand. It costs {faeria|5} less. ",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 95,
@@ -1165,7 +1309,9 @@ var data=[
     "health": 2,
     "text": "If you've played an event this turn, costs {faeria|2} less.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100012,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 96,
@@ -1181,7 +1327,9 @@ var data=[
     "health": 0,
     "text": "Add two random blue cards to your hand.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 97,
@@ -1197,7 +1345,9 @@ var data=[
     "health": 4,
     "text": "{gift} - Summon a 1/1 <b>Ruby Fish</b> (you may summon it on an ocean tile).",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 102,
@@ -1213,7 +1363,9 @@ var data=[
     "health": 2,
     "text": "Whenever you play an event, gain +1/+1.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100012,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 103,
@@ -1229,7 +1381,9 @@ var data=[
     "health": 5,
     "text": "{aquatic}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 104,
@@ -1245,7 +1399,9 @@ var data=[
     "health": 10,
     "text": "{aquatic} {production} - Transform all adjacent lands into lakes.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 105,
@@ -1261,7 +1417,9 @@ var data=[
     "health": 5,
     "text": "{last_words} - Gain {faeria|10} and draw a card.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 106,
@@ -1277,7 +1435,9 @@ var data=[
     "health": 0,
     "text": "Draw until you have 5 cards in hand.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 107,
@@ -1293,7 +1453,9 @@ var data=[
     "health": 8,
     "text": "Costs {faeria|1} less for each card you've drawn.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 108,
@@ -1309,7 +1471,9 @@ var data=[
     "health": 6,
     "text": "{flying}, {charge|2} {gift} - Change the Life of all enemy creatures to 1.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 109,
@@ -1325,7 +1489,9 @@ var data=[
     "health": 2,
     "text": "{protection} {gift} - Create a lake.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100009,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 110,
@@ -1341,7 +1507,9 @@ var data=[
     "health": 1,
     "text": "{flying} The first time you draw an event, gain +2/+2, {protection} and {charge|2}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 111,
@@ -1357,7 +1525,9 @@ var data=[
     "health": 3,
     "text": "{activate} - Move a land. Deal 1 damage to this structure.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 112,
@@ -1373,7 +1543,9 @@ var data=[
     "health": 2,
     "text": "Whenever you gather faeria, gain +1/+1.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 113,
@@ -1389,7 +1561,9 @@ var data=[
     "health": 1,
     "text": "Whenever you gather faeria, this structure gains +1 Life. {activate} - Destroy this and gain faeria equal to its Life.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 114,
@@ -1405,7 +1579,9 @@ var data=[
     "health": 0,
     "text": "Draw until you have 9 cards. Reduce the cost of all cards in your hand to {faeria|0}.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 115,
@@ -1421,7 +1597,9 @@ var data=[
     "health": 5,
     "text": "{jump} Whenever you play an event, gain +2/+0 this turn.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 116,
@@ -1437,7 +1615,9 @@ var data=[
     "health": 5,
     "text": "Whenever this creature gathers, gain an additional {faeria|1}.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 117,
@@ -1453,7 +1633,9 @@ var data=[
     "health": 3,
     "text": "When you draw a creature, Egg of Wonders becomes a copy of it.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 118,
@@ -1469,7 +1651,9 @@ var data=[
     "health": 3,
     "text": "{options|Gain +3/+0|Gain +0/+3.} Gain +4/+0. Gain +0/+4.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 119,
@@ -1485,7 +1669,9 @@ var data=[
     "health": 1,
     "text": "{aquatic}, {jump}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100011,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 120,
@@ -1501,7 +1687,9 @@ var data=[
     "health": 0,
     "text": "{options|Move a land|Draw a card} Move a land. Draw a card.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100010,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 121,
@@ -1517,7 +1705,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Move a land twice.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 122,
@@ -1533,7 +1723,9 @@ var data=[
     "health": 0,
     "text": "Change a creature's Attack to 1.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100012,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 123,
@@ -1549,7 +1741,9 @@ var data=[
     "health": 5,
     "text": "{gift} - The next creature with 5 Life or more you draw costs {faeria|3} less.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 124,
@@ -1565,7 +1759,9 @@ var data=[
     "health": 0,
     "text": "Give a creature +1/+1, {protection} and {jump}.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 125,
@@ -1581,7 +1777,9 @@ var data=[
     "health": 1,
     "text": "{gift} - Change another creature's Attack and Life to 6/6.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 126,
@@ -1597,7 +1795,9 @@ var data=[
     "health": 5,
     "text": "Whenever a player passes the turn, set their faeria to {faeria|3}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 127,
@@ -1613,7 +1813,9 @@ var data=[
     "health": 0,
     "text": "Transform a creature into a random creature that costs {faeria|1} more.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 128,
@@ -1629,7 +1831,9 @@ var data=[
     "health": 0,
     "text": "Gain control of a creature with 2 Attack or less.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 129,
@@ -1645,7 +1849,9 @@ var data=[
     "health": 0,
     "text": "Summon two 2/2 <b>Frogs</b> with {jump}.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 130,
@@ -1661,7 +1867,9 @@ var data=[
     "health": 0,
     "text": "Gain {faeria|13}.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 131,
@@ -1677,7 +1885,9 @@ var data=[
     "health": 5,
     "text": "{combat} - Gain +1/+1.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 132,
@@ -1693,7 +1903,9 @@ var data=[
     "health": 3,
     "text": "Whenever an adjacent creature dies, gain +1/+1.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 133,
@@ -1709,7 +1921,9 @@ var data=[
     "health": 5,
     "text": "{last_words} - A random friendly creature gains +3/+5.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 134,
@@ -1725,7 +1939,9 @@ var data=[
     "health": 6,
     "text": "{combat} - A random friendly creature gains +1/+1.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 135,
@@ -1741,7 +1957,9 @@ var data=[
     "health": 5,
     "text": "When you summon a creature with 5 Life or more, it gains +1/+1.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 136,
@@ -1757,7 +1975,9 @@ var data=[
     "health": 0,
     "text": "You and a creature each gain +3 Life.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 137,
@@ -1773,7 +1993,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Give a creature {taunt}.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 138,
@@ -1789,7 +2011,9 @@ var data=[
     "health": 1,
     "text": "{last_words} - Add a random green card to your hand. It costs {faeria|3} less.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 139,
@@ -1805,7 +2029,9 @@ var data=[
     "health": 1,
     "text": "{last_words} - A random friendly creature gains +2/+4.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 140,
@@ -1821,7 +2047,9 @@ var data=[
     "health": 1,
     "text": "{gift} - Give a creature +3/+3.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100006,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 141,
@@ -1837,7 +2065,9 @@ var data=[
     "health": 1,
     "text": "{gift} - Give a creature +0/+4.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 142,
@@ -1853,7 +2083,9 @@ var data=[
     "health": 0,
     "text": "Give a creature +0/+5 and {taunt}.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100006,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 143,
@@ -1869,7 +2101,9 @@ var data=[
     "health": 3,
     "text": "The first time you summon a creature each turn, it gets +1/+1.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 144,
@@ -1885,7 +2119,9 @@ var data=[
     "health": 10,
     "text": "Whenever this creature is dealt damage, its power doubles.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 149,
@@ -1901,7 +2137,9 @@ var data=[
     "health": 5,
     "text": "{last_words} - A random creature in your hand gains +5/+5.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 150,
@@ -1917,7 +2155,9 @@ var data=[
     "health": 10,
     "text": "",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100007,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 151,
@@ -1933,7 +2173,9 @@ var data=[
     "health": 6,
     "text": "{gift} - Create an adjacent forest at random.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100007,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 152,
@@ -1949,7 +2191,9 @@ var data=[
     "health": 4,
     "text": "{taunt} {last_words} - Create a forest at random.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100007,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 153,
@@ -1965,7 +2209,9 @@ var data=[
     "health": 8,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100005,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 154,
@@ -1981,7 +2227,9 @@ var data=[
     "health": 5,
     "text": "{gift} - You gain 5 Life.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 155,
@@ -1997,7 +2245,9 @@ var data=[
     "health": 8,
     "text": "Whenever damage would be dealt to you or a creature you control, it's dealt to this structure instead.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 156,
@@ -2013,7 +2263,9 @@ var data=[
     "health": 6,
     "text": "{gift} - Gain +0/+1 for each forest you control.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 157,
@@ -2029,7 +2281,9 @@ var data=[
     "health": 1,
     "text": "{production} - This structure gains +1 Life. When this has 6 or more Life, destroy it and gain {faeria|10}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 158,
@@ -2045,7 +2299,9 @@ var data=[
     "health": 7,
     "text": "{taunt}",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 159,
@@ -2061,7 +2317,9 @@ var data=[
     "health": 0,
     "text": "Create two forests at random.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 168,
@@ -2077,7 +2335,9 @@ var data=[
     "health": 8,
     "text": "Costs {faeria|1} less for each forest you control.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 169,
@@ -2093,7 +2353,9 @@ var data=[
     "health": 6,
     "text": "{flying}, {charge|2} {gift} - Give a creature +5/+5.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 170,
@@ -2109,7 +2371,9 @@ var data=[
     "health": 3,
     "text": "{taunt} {gift} - Create a forest.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100008,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 171,
@@ -2125,7 +2389,9 @@ var data=[
     "health": 1,
     "text": "{flying} The first time you draw an event, gain +2/+4, {taunt} and {charge|2}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 172,
@@ -2141,7 +2407,9 @@ var data=[
     "health": 4,
     "text": "{activate} - Give a creature +1/+1. Deal 1 damage to this structure.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 173,
@@ -2157,7 +2425,9 @@ var data=[
     "health": 2,
     "text": "Whenever you create a forest, gain +1/+1.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 174,
@@ -2173,7 +2443,9 @@ var data=[
     "health": 3,
     "text": "Whenever a friendly creature dies, a random creature in your hand gains +1/+1.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 175,
@@ -2189,7 +2461,9 @@ var data=[
     "health": 0,
     "text": "Give a creature +2/+4.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100006,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 176,
@@ -2205,7 +2479,9 @@ var data=[
     "health": 8,
     "text": "{combat} - Gain 3 Life.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 177,
@@ -2221,7 +2497,9 @@ var data=[
     "health": 7,
     "text": "",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100005,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 178,
@@ -2237,7 +2515,9 @@ var data=[
     "health": 6,
     "text": "{taunt}",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100008,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 179,
@@ -2253,7 +2533,9 @@ var data=[
     "health": 15,
     "text": "{taunt} {last_words} - Fill the world with forests.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 180,
@@ -2269,7 +2551,9 @@ var data=[
     "health": 3,
     "text": "Whenever you are dealt damage, gain {faeria|1}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 181,
@@ -2285,7 +2569,9 @@ var data=[
     "health": 0,
     "text": "Draw a card and gain 3 Life.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 182,
@@ -2301,7 +2587,9 @@ var data=[
     "health": 7,
     "text": "{taunt} Gains +1/+1 for each time you've been dealt damage this game.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 183,
@@ -2317,7 +2605,9 @@ var data=[
     "health": 5,
     "text": "If you control a creature with 5 Life or more, costs {faeria|2} less.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100005,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 184,
@@ -2333,7 +2623,9 @@ var data=[
     "health": 0,
     "text": "{options|Give a creature +2/+2.|Gain 5 life.} - Give a creature +2/+2. - Gain 5 Life.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 185,
@@ -2349,7 +2641,9 @@ var data=[
     "health": 5,
     "text": "{gift} - Destroy all adjacent friendly creatures. Gain Attack AND Life equal to their combined Life.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 186,
@@ -2365,7 +2659,9 @@ var data=[
     "health": 1,
     "text": "{production} - If this creature has less than 5 Life, gain +1/+1.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100008,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 187,
@@ -2381,7 +2677,9 @@ var data=[
     "health": 3,
     "text": "{last_words} - All creatures in your deck and hand gain +1/+1.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 188,
@@ -2397,7 +2695,9 @@ var data=[
     "health": 0,
     "text": "Destroy a friendly creature to gain faeria equal to its Life. Draw a card.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 189,
@@ -2413,7 +2713,9 @@ var data=[
     "health": 0,
     "text": "Add a random green creature to your hand. It gains +6/+6.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 190,
@@ -2429,7 +2731,9 @@ var data=[
     "health": 6,
     "text": "{last_words} - Return Ruunin to your hand and reduce her cost by {faeria|2}.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 191,
@@ -2445,7 +2749,9 @@ var data=[
     "health": 3,
     "text": "{combat} - Gain {faeria|2}.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100013,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 192,
@@ -2461,7 +2767,9 @@ var data=[
     "health": 5,
     "text": "{combat} - A random friendly creature gains +3/+0.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100013,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 195,
@@ -2477,7 +2785,9 @@ var data=[
     "health": 5,
     "text": "{combat} - Gain {faeria|2}.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100013,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 193,
@@ -2493,7 +2803,9 @@ var data=[
     "health": 4,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100014,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 194,
@@ -2509,7 +2821,9 @@ var data=[
     "health": 0,
     "text": "Give a creature +3/+0.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100014,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 196,
@@ -2525,7 +2839,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Give a structure +2 Life.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 197,
@@ -2541,7 +2857,9 @@ var data=[
     "health": 5,
     "text": "{gift} - If your opponent has 10 Life or less, gain +2/+2.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 198,
@@ -2557,7 +2875,9 @@ var data=[
     "health": 4,
     "text": "Adjacent friendly creatures have +2/+0.",
     "questReward": true,
-    "rarity": "RARE"
+    "codexId": 100014,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 199,
@@ -2573,7 +2893,9 @@ var data=[
     "health": 1,
     "text": "{taunt}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100015,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 200,
@@ -2589,7 +2911,9 @@ var data=[
     "health": 7,
     "text": "{taunt}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100015,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 201,
@@ -2605,7 +2929,9 @@ var data=[
     "health": 3,
     "text": "{gift} - A random card in your hand costs {faeria|6} less.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 202,
@@ -2621,7 +2947,9 @@ var data=[
     "health": 6,
     "text": "When Seifer destroys a creature, he gains Attack and Life equal to the destroyed creature's original Attack and Life.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 203,
@@ -2637,7 +2965,9 @@ var data=[
     "health": 6,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 204,
@@ -2653,7 +2983,9 @@ var data=[
     "health": 12,
     "text": "{combat} - A random card in your hand costs {faeria|6} less.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 205,
@@ -2669,7 +3001,9 @@ var data=[
     "health": 3,
     "text": "Whenever this creature gathers faeria, gain +1/+0.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100015,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 206,
@@ -2685,7 +3019,9 @@ var data=[
     "health": 4,
     "text": "{ranged_attack} Gain +3/+0 during your turn.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 211,
@@ -2701,7 +3037,9 @@ var data=[
     "health": 6,
     "text": "{combat} - Deal 2 damage to your opponent.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100016,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 212,
@@ -2717,7 +3055,9 @@ var data=[
     "health": 3,
     "text": "Whenever an enemy creature dies, deal 2 damage to your opponent.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100016,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 213,
@@ -2733,7 +3073,9 @@ var data=[
     "health": 2,
     "text": "{last_words} - Deal 2 damage to your opponent.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 214,
@@ -2749,7 +3091,9 @@ var data=[
     "health": 1,
     "text": "{gift} - Deal 1 damage to an enemy.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 215,
@@ -2765,7 +3109,9 @@ var data=[
     "health": 6,
     "text": "{deathtouch}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 216,
@@ -2781,7 +3127,9 @@ var data=[
     "health": 4,
     "text": "Whenever this creature enters an enemy land, deal 2 damage to your opponent.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 217,
@@ -2797,7 +3145,9 @@ var data=[
     "health": 2,
     "text": "Whenever an enemy creature dies, gain {faeria|2}.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 218,
@@ -2813,7 +3163,9 @@ var data=[
     "health": 5,
     "text": "{taunt} {combat} - Deal 2 damage to your opponent.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100016,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 223,
@@ -2829,7 +3181,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Deal 4 damage to an adjacent enemy creature.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 224,
@@ -2845,7 +3199,9 @@ var data=[
     "health": 5,
     "text": "{gift} - Give {ranged_attack} to a friendly creature.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 225,
@@ -2861,7 +3217,9 @@ var data=[
     "health": 0,
     "text": "{options|Deal 3 damage.|Pay {faeria|3} more to also deal 3 damage to each enemy adjacent to the target.} Deal 3 damage. Pay {faeria|3} more to also deal 3 damage to each enemy adjacent to the target.",
     "questReward": true,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 226,
@@ -2877,7 +3235,9 @@ var data=[
     "health": 2,
     "text": "{ranged_attack}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 231,
@@ -2893,7 +3253,9 @@ var data=[
     "health": 8,
     "text": "Costs {faeria|1} less for each enemy creature that died this game.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 232,
@@ -2909,7 +3271,9 @@ var data=[
     "health": 6,
     "text": "{flying}, {charge|2} {gift} - Deal 3 damage to all enemy creatures.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 233,
@@ -2925,7 +3289,9 @@ var data=[
     "health": 2,
     "text": "{ranged_attack} {gift} - Create a mountain.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 234,
@@ -2941,7 +3307,9 @@ var data=[
     "health": 1,
     "text": "{flying} The first time you draw an event, gain +3/+0 and {ranged_attack}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 235,
@@ -2957,7 +3325,9 @@ var data=[
     "health": 3,
     "text": "{activate} - Deal 1 damage. Deal 1 damage to this structure.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 236,
@@ -2973,7 +3343,9 @@ var data=[
     "health": 2,
     "text": "Whenever an enemy creature dies, gain +2/+1.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 237,
@@ -2989,7 +3361,9 @@ var data=[
     "health": 6,
     "text": "{gift} - Deal 1 damage to ALL enemies.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 238,
@@ -3005,7 +3379,9 @@ var data=[
     "health": 4,
     "text": "{combat} - Deal 2 damage to all enemy creatures.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 239,
@@ -3021,7 +3397,9 @@ var data=[
     "health": 6,
     "text": "{gift} - Deal 3 damage to all adjacent enemy creatures.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 240,
@@ -3037,7 +3415,9 @@ var data=[
     "health": 5,
     "text": "Deals double damage to creatures.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 241,
@@ -3053,7 +3433,9 @@ var data=[
     "health": 0,
     "text": "Deal 2 damage to a creature. If it dies, deal 2 damage to its controller.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 242,
@@ -3069,7 +3451,9 @@ var data=[
     "health": 6,
     "text": "{taunt} {production} - Deal 2 damage to adjacent enemy creatures.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 243,
@@ -3085,7 +3469,9 @@ var data=[
     "health": 0,
     "text": "Deal 4 damage to a creature or structure.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 244,
@@ -3101,7 +3487,9 @@ var data=[
     "health": 0,
     "text": "Deal 3 damage to all enemy creatures.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 245,
@@ -3117,7 +3505,9 @@ var data=[
     "health": 3,
     "text": "Whenever this creature is dealt damage, deal that much damage to your opponent.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 246,
@@ -3133,7 +3523,9 @@ var data=[
     "health": 6,
     "text": "Whenever your opponent plays a card, deal 1 damage to this creature.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 247,
@@ -3149,7 +3541,9 @@ var data=[
     "health": 0,
     "text": "A random card in your hand costs {faeria|6} less.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 248,
@@ -3165,7 +3559,9 @@ var data=[
     "health": 0,
     "text": "Choose a space. Destroy all creatures, structures and lands on or adjacent to that space.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 249,
@@ -3181,7 +3577,9 @@ var data=[
     "health": 1,
     "text": "When a friendly creature gains Attack, it gains +0/+1.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 250,
@@ -3197,7 +3595,9 @@ var data=[
     "health": 4,
     "text": "When you use the +{faeria|1} power, deal 1 damage to an enemy.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 251,
@@ -3213,7 +3613,9 @@ var data=[
     "health": 1,
     "text": "Whenever a creature you control attacks a god, gain {faeria|2}.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 252,
@@ -3229,7 +3631,9 @@ var data=[
     "health": 0,
     "text": "Gain {faeria|2} and draw a card. Play only if you attacked a god this turn.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 253,
@@ -3245,7 +3649,9 @@ var data=[
     "health": 1,
     "text": "{haste} Gain +3/+0 against gods.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 254,
@@ -3261,7 +3667,9 @@ var data=[
     "health": 3,
     "text": "Gain +3/+0 against gods.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 255,
@@ -3277,7 +3685,9 @@ var data=[
     "health": 4,
     "text": "{ranged_attack} Gain +3/+0 against gods.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 256,
@@ -3293,7 +3703,9 @@ var data=[
     "health": 2,
     "text": "{jump} {gift} - Move a creature.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 257,
@@ -3309,7 +3721,9 @@ var data=[
     "health": 0,
     "text": "Teleport a creature to a desert you control. ",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 258,
@@ -3325,7 +3739,9 @@ var data=[
     "health": 3,
     "text": "Adjacent friendly creatures have {charge|5}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 259,
@@ -3341,7 +3757,9 @@ var data=[
     "health": 3,
     "text": "{gift} - Drain 3 Life from your opponent.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100019,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 260,
@@ -3357,7 +3775,9 @@ var data=[
     "health": 6,
     "text": "{flying}, {charge|2} When Khalim attacks the orb, add a free <b>Khalim's Follower</b> to your hand.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 261,
@@ -3373,7 +3793,9 @@ var data=[
     "health": 1,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100017,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 262,
@@ -3389,7 +3811,9 @@ var data=[
     "health": 1,
     "text": "{last_words} - Gain {faeria|3}.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100017,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 263,
@@ -3405,7 +3829,9 @@ var data=[
     "health": 0,
     "text": "Destroy a creature.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 264,
@@ -3421,7 +3847,9 @@ var data=[
     "health": 0,
     "text": "Gain {faeria|2} and deal 2 damage to yourself.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 265,
@@ -3437,7 +3865,9 @@ var data=[
     "health": 3,
     "text": "{activate} - Deal 2 damage to yourself and summon a 6/1 <b>Slaughtering Shadow</b>.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 266,
@@ -3453,7 +3883,9 @@ var data=[
     "health": 4,
     "text": "{production} - Deal 2 damage to yourself.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100019,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 267,
@@ -3469,7 +3901,9 @@ var data=[
     "health": 4,
     "text": "{flying} Can be summoned anywhere adjacent to a friendly creature.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100020,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 268,
@@ -3485,7 +3919,9 @@ var data=[
     "health": 0,
     "text": "Give a creature +2/+0, {flying} and {charge|2}.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 273,
@@ -3501,7 +3937,9 @@ var data=[
     "health": 1,
     "text": "{haste}, {charge|3}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100018,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 274,
@@ -3517,7 +3955,9 @@ var data=[
     "health": 4,
     "text": "{flying}, {charge|2} Whenever you draw a flying creature, it gains +1/+1.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 275,
@@ -3533,7 +3973,9 @@ var data=[
     "health": 3,
     "text": "{flying}. Has +2/+0 while you control another flying creature.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 276,
@@ -3549,7 +3991,9 @@ var data=[
     "health": 3,
     "text": "Costs {faeria|2} less if ANY creature died this turn.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 277,
@@ -3565,7 +4009,9 @@ var data=[
     "health": 3,
     "text": "{flying}, {charge|2}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 278,
@@ -3581,7 +4027,9 @@ var data=[
     "health": 5,
     "text": "{flying}, {charge|5} {gift} - Move a creature.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 287,
@@ -3597,7 +4045,9 @@ var data=[
     "health": 8,
     "text": "Costs {faeria|1} less for each event you've played this game.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 288,
@@ -3613,7 +4063,9 @@ var data=[
     "health": 6,
     "text": "{flying}, {charge|2} {gift} - Destroy an enemy creature.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 289,
@@ -3629,7 +4081,9 @@ var data=[
     "health": 2,
     "text": "{flying} {gift} - Create a desert.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100018,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 290,
@@ -3645,7 +4099,9 @@ var data=[
     "health": 1,
     "text": "{flying} The first time you draw an event, gain +5/+0 and {charge|5}.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 291,
@@ -3661,7 +4117,9 @@ var data=[
     "health": 3,
     "text": "{activate} - Give an adjacent creature haste. Deal 1 damage to this structure.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 292,
@@ -3677,7 +4135,9 @@ var data=[
     "health": 2,
     "text": "{flying}, {charge|3} Whenever you attack a god, gain +3/+0.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100020,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 293,
@@ -3693,7 +4153,9 @@ var data=[
     "health": 0,
     "text": "Move a creature.",
     "questReward": true,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 100020,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 294,
@@ -3709,7 +4171,9 @@ var data=[
     "health": 2,
     "text": "All your flying creatures have +2/+0.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 295,
@@ -3725,7 +4189,9 @@ var data=[
     "health": 1,
     "text": "{haste} Whenever you attack a god, gain +1/+1 (even if this creature in your hand).",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 296,
@@ -3741,7 +4207,9 @@ var data=[
     "health": 2,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 297,
@@ -3757,7 +4225,9 @@ var data=[
     "health": 4,
     "text": "{gift} - You may sacrifice another creature to gain {faeria|3}.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 298,
@@ -3773,7 +4243,9 @@ var data=[
     "health": 1,
     "text": "{deathtouch} {gift} - You may sacrifice another creature to give this creature {protection}.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 299,
@@ -3789,7 +4261,9 @@ var data=[
     "health": 1,
     "text": "{gift} - You may sacrifice another creature, summoning a 5/2 {flying} <b>Demon Wing</b> in its place.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 300,
@@ -3805,7 +4279,9 @@ var data=[
     "health": 5,
     "text": "You must sacrifice another creature to summon this creature.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 301,
@@ -3821,7 +4297,9 @@ var data=[
     "health": 0,
     "text": "Destroy a friendly creature. Summon a 6/3 <b>Oblivion Knight</b> with {charge|3} in its place.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 302,
@@ -3837,7 +4315,9 @@ var data=[
     "health": 4,
     "text": "{gift} - This creature drains 2 life from all adjacent enemy creatures.",
     "questReward": true,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 303,
@@ -3853,7 +4333,9 @@ var data=[
     "health": 1,
     "text": "{flying} Can't be attacked.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 304,
@@ -3869,7 +4351,9 @@ var data=[
     "health": 2,
     "text": "{flying}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100017,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 305,
@@ -3885,7 +4369,9 @@ var data=[
     "health": 3,
     "text": "{charge|3}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100018,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 306,
@@ -3901,7 +4387,9 @@ var data=[
     "health": 0,
     "text": "Drain 2 Life from a creature or god.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100019,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 307,
@@ -3917,7 +4405,9 @@ var data=[
     "health": 0,
     "text": "Destroy a creature with 3 Attack or less.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 308,
@@ -3933,7 +4423,9 @@ var data=[
     "health": 1,
     "text": "{activate} - Destroy a friendly creature. This structure gains +4 Life. When it has 13 or more destroy it and summon Ostregoth.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 101000,
+    "rarity": "LEGENDARY",
+    "uncollectable": false
   },
   {
     "id": 309,
@@ -3949,7 +4441,9 @@ var data=[
     "health": 3,
     "text": "{ranged_attack} Whenever you play an event, gain +1/+0 this turn.",
     "questReward": false,
-    "rarity": "EXCEPTIONAL"
+    "codexId": 101000,
+    "rarity": "EXCEPTIONAL",
+    "uncollectable": false
   },
   {
     "id": 310,
@@ -3965,7 +4459,9 @@ var data=[
     "health": 3,
     "text": "{charge|3} Whenever you play an event, gain +2/+0 this turn.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 101000,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 311,
@@ -3981,7 +4477,9 @@ var data=[
     "health": 4,
     "text": "{gift} - Gain Attack and Life equal to any creature's.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 312,
@@ -3997,7 +4495,9 @@ var data=[
     "health": 8,
     "text": "{taunt}, {protection}",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 313,
@@ -4013,7 +4513,9 @@ var data=[
     "health": 2,
     "text": "{flying}  Can be summoned adjacent to a friendly creature. {gift} - Summons a copy of itself.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 314,
@@ -4029,7 +4531,9 @@ var data=[
     "health": 8,
     "text": "Whenever ANY of your creatures fight, gain +1/+1.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 315,
@@ -4045,7 +4549,9 @@ var data=[
     "health": 1,
     "text": "Gain +1/+1 for each friendly creature that has died this game.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 316,
@@ -4061,7 +4567,9 @@ var data=[
     "health": 5,
     "text": "{flying}, {haste}, {charge|2} {combat} - Deal 3 damage to your opponent.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 101000,
+    "rarity": "RARE",
+    "uncollectable": false
   },
   {
     "id": 317,
@@ -4077,7 +4585,9 @@ var data=[
     "health": 5,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 318,
@@ -4093,7 +4603,9 @@ var data=[
     "health": 2,
     "text": "{jump}",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 319,
@@ -4109,7 +4621,9 @@ var data=[
     "health": 8,
     "text": "{combat} - Deal 4 damage to your opponent.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 320,
@@ -4125,7 +4639,9 @@ var data=[
     "health": 2,
     "text": "{flying}. Can be summoned anywhere adjacent to your creatures. {gift} - Summons a copy of itself.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 323,
@@ -4141,7 +4657,9 @@ var data=[
     "health": 0,
     "text": "Create a prairie.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 328,
@@ -4157,7 +4675,9 @@ var data=[
     "health": 13,
     "text": "{flying}, {haste}, {charge|5} Faeria wells can't produce faeria.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 106666,
+    "rarity": "LEGENDARY",
+    "uncollectable": true
   },
   {
     "id": 329,
@@ -4173,7 +4693,9 @@ var data=[
     "health": 1,
     "text": "",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100002,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 330,
@@ -4189,7 +4711,9 @@ var data=[
     "health": 2,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 331,
@@ -4205,7 +4729,9 @@ var data=[
     "health": 0,
     "text": "Draw 2 cards.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 332,
@@ -4221,7 +4747,9 @@ var data=[
     "health": 0,
     "text": "Gain 3 Life.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 333,
@@ -4237,7 +4765,9 @@ var data=[
     "health": 0,
     "text": "Deal 3 damage to your opponent.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 334,
@@ -4253,7 +4783,9 @@ var data=[
     "health": 0,
     "text": "Draw FIVE cards. ",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 335,
@@ -4269,7 +4801,9 @@ var data=[
     "health": 2,
     "text": "{gift} - Deal 2 damage to your opponent.",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 100002,
+    "rarity": "COMMON",
+    "uncollectable": false
   },
   {
     "id": 336,
@@ -4285,7 +4819,9 @@ var data=[
     "health": 10,
     "text": "{last_words} - Reduces its master to 1 life.",
     "questReward": false,
-    "rarity": "LEGENDARY"
+    "codexId": 106666,
+    "rarity": "LEGENDARY",
+    "uncollectable": true
   },
   {
     "id": 337,
@@ -4301,7 +4837,9 @@ var data=[
     "health": 0,
     "text": "Deal 10 damage to ALL your enemy's pathetic creatures.",
     "questReward": false,
-    "rarity": "RARE"
+    "codexId": 106666,
+    "rarity": "RARE",
+    "uncollectable": true
   },
   {
     "id": 338,
@@ -4317,7 +4855,9 @@ var data=[
     "health": 4,
     "text": "{haste}",
     "questReward": true,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9992,
@@ -4333,7 +4873,9 @@ var data=[
     "health": 0,
     "text": "Gain {faeria|100} and create a land of each color at random.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9993,
@@ -4349,7 +4891,9 @@ var data=[
     "health": 0,
     "text": "Deal 100 damage.",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9994,
@@ -4365,7 +4909,9 @@ var data=[
     "health": 0,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9995,
@@ -4381,7 +4927,9 @@ var data=[
     "health": 0,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9996,
@@ -4397,7 +4945,9 @@ var data=[
     "health": 0,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9997,
@@ -4413,7 +4963,9 @@ var data=[
     "health": 0,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9998,
@@ -4429,7 +4981,9 @@ var data=[
     "health": 0,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   },
   {
     "id": 9999,
@@ -4445,6 +4999,8 @@ var data=[
     "health": 0,
     "text": "",
     "questReward": false,
-    "rarity": "COMMON"
+    "codexId": 106666,
+    "rarity": "COMMON",
+    "uncollectable": true
   }
 ];
