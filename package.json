@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node parse-disunity-output.js"
+    "start": "node parse-disunity-output.js",
+    "docdeploy": "git subtree push --prefix public origin gh-pages"
   },
   "author": "",
   "license": "ISC",
