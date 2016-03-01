@@ -5,10 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node parse-disunity-output.js",
-    "docdeploy": "git subtree push --prefix public origin gh-pages"
+    "docdeploy": "git subtree push --prefix public origin gh-pages",
+    "csv-convert": "node parse-csv.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dropbox": "^0.10.3"
   }
 }

@@ -39,6 +39,15 @@ The copy/disunity/npm tasks are wrapped up in runner.sh to do the whole thing ra
 open `./public/index.html` or `./build/output.json` for the nice pretty version.
 
 
+
+##To Convert from the official CSV
+
+Download the csv into `./tmp/cards.csv` from `https://www.dropbox.com/sh/ietjmgr4k6p5b4j/AADh-5_1NpTpUvsuPPpEIghxa/Cards/merlin_shortened.csv?dl=0`
+
+Run the converter
+
+`./csv-runner.sh`
+
 ## Deploy Demo
 
 Github pages deploy
