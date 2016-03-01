@@ -11,6 +11,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dropbox": "^0.10.3"
   }
 }
