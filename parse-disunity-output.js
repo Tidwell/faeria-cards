@@ -20,6 +20,8 @@ function parseCardLine(line) {
 	var parts = line.split(';');
 	var codexId = Number(parts[15]);
 
+	if (parts.length < 16) { console.log(parts); return {}; }
+	console.log(line)
 	return {
 		id: Number(parts[0]),
 		color: parts[1],
@@ -56,7 +58,9 @@ delete lines[lines.length - 1];
 //parse all the lines into cards
 var cards = [];
 lines.forEach(function(line) {
-	cards.push(parseCardLine(line));
+	var parsed = parseCardLine(line);
+	if (!parsed.id) { return; }
+	cards.push(parsed);
 });
 //fix the id on the first one
 cards[0].id = 1;
