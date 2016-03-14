@@ -63,7 +63,7 @@ lines.forEach(function(line) {
 	cards.push(parsed);
 });
 //fix the id on the first one
-cards[0].id = 1;
+//cards[0].id = 1;
 
 //write the two versions
 var jsonCards = JSON.stringify(cards, null, 2)
