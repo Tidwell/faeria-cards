@@ -1,5 +1,5 @@
-var path = './public/data.js';
-var path2 = './build/output.json';
+var path = './public/data-unity.js';
+var path2 = './build/output-unity.json';
 
 var fs = require('fs');
 
@@ -67,5 +67,5 @@ lines.forEach(function(line) {
 
 //write the two versions
 var jsonCards = JSON.stringify(cards, null, 2)
-write(path, 'var data=' + jsonCards+';');
+write(path, 'var unityData=' + jsonCards+';');
 write(path2, jsonCards)

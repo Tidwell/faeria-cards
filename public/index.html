@@ -50,10 +50,17 @@
 		<p>
 			This is generated via <a href="https://github.com/Tidwell/faeria-cards">a small node script</a> from the offical csv cardlist.
 			<br />
-			Last generated: 5/23/2016 <br />
+			Last generated: 6/7/2016 <br />
 			<a href="https://raw.githubusercontent.com/Tidwell/faeria-cards/master/build/output.json">Raw .json</a>
+			<a href="https://raw.githubusercontent.com/Tidwell/faeria-cards/master/build/output-unity.json">Raw Unity .json</a>
 			<a href="https://www.dropbox.com/sh/ietjmgr4k6p5b4j/AADh-5_1NpTpUvsuPPpEIghxa/Cards/merlin_shortened.csv?dl=0">Raw .csv</a>
 		</p>
+		<!--
+		<select>
+			<option value="data">CSV parsed</option>
+			<option value="unityData">Unity parsed</option>
+		</select>
+		-->
 		<table class="display responsive" cellspacing="0" width="100%">
 			<thead>
 				<tr></tr>
@@ -67,28 +74,28 @@
 		<script src="https://cdn.datatables.net/responsive/2.0.2/js/dataTables.responsive.min.js"></script>
 		<script src="data.js"></script>
 		<script>
-			data.forEach(function(c){
-				c.text = c.text.replace(/\{/g, '<strong>');
-				c.text = c.text.replace(/\}/g, '</strong>');
-				c.text = c.text.replace(/\|/g, ' ');
-			});		
-			var hdr = document.querySelectorAll('table thead tr')[0];
-			var table = document.querySelectorAll('table tbody')[0];
-			for (var prop in data[0]) {
-				hdr.innerHTML += '<th class="'+prop+'">'+prop+'</th>';
-			}
-			
-			var tablehtml = '';
-			data.forEach(function(c) {
-				tablehtml += '<tr>';
-				for (var prop in c) {
-					tablehtml += '<td class="'+prop+'">'+c[prop]+'</td>';
-				}
-				tablehtml += '</tr>';
-			});
-			table.innerHTML = tablehtml;
-
 			$(function() {
+				data.forEach(function(c){
+					c.text = c.text.replace(/\{/g, '<strong>');
+					c.text = c.text.replace(/\}/g, '</strong>');
+					c.text = c.text.replace(/\|/g, ' ');
+				});		
+				var hdr = document.querySelectorAll('table thead tr')[0];
+				var table = document.querySelectorAll('table tbody')[0];
+				for (var prop in data[0]) {
+					hdr.innerHTML += '<th class="'+prop+'">'+prop+'</th>';
+				}
+				
+				var tablehtml = '';
+				data.forEach(function(c) {
+					tablehtml += '<tr>';
+					for (var prop in c) {
+						tablehtml += '<td class="'+prop+'">'+c[prop]+'</td>';
+					}
+					tablehtml += '</tr>';
+				});
+				table.innerHTML = tablehtml;
+
 				$('table').DataTable({
 					lengthMenu: [[-1, 50], ['All', 50]],
 					responsive: true,
