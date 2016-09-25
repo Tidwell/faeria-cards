@@ -1451,7 +1451,7 @@ var unityData=[
     "deserts": 0,
     "attack": 6,
     "health": 6,
-    "text": "{flying}, {charge|2} {gift} - Transform all your other creatures into creatures who cost {faeria|2} more.",
+    "text": "{flying}, {charge|2} {gift} - Transform all your other creatures into creatures that cost {faeria|2} more.",
     "questReward": false,
     "codexId": 101000,
     "rarity": "LEGENDARY",
