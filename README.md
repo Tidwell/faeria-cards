@@ -42,7 +42,7 @@ open `./public/index.html` or `./build/output.json` for the nice pretty version.
 
 ##To Convert from the official CSV
 
-Download the csv into `./tmp/cards.csv` from `https://www.dropbox.com/sh/ietjmgr4k6p5b4j/AADh-5_1NpTpUvsuPPpEIghxa/Cards/merlin_shortened.csv?dl=0`
+Download the csv into `./tmp/cards.csv` from `https://github.com/abrakam/Faeria_Cards/blob/master/CardExport/merlin_shortened.csv`
 
 Run the converter
 
