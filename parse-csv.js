@@ -27,7 +27,7 @@ function parseCardLine(line) {
 		color: parts[1],
 		name: parts[2],
 		type: parts[3],
-		//a: parts[4],// - unused (probably used to be gold cost?)
+		wild: parts[4],
 		faeriaCost: Number(parts[5]),
 		islands: Number(parts[6]),
 		forests: Number(parts[7]),
