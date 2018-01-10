@@ -1,25 +1,27 @@
-parse the cardlist from the faeria csv
+Faeria卡牌数据库
 --
 
-The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-cards/)
+~~The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-cards/)~~
+新的Demo正在部署中
 
-##Install
+## 使用方式
 
-Download the csv into `./tmp/cards.csv` from `https://github.com/abrakam/Faeria_Cards/blob/master/CardExport/merlin_shortened.csv`
+1. Git Clone至本地，打开../public/index.html
 
-``npm install``
+2. 在线使用（正在部署中）
 
-##Run
-`npm start`
+## 更新计划
+- [ ] 支持中文文本搜索
+- [ ] 支持组卡器
+- [ ] 支持导出卡组至图片
+ 
+
+## 数据存放位置
+
+Json： `./build/output.json`  
+image： `./image`
 
 
-##View
+## 在线Demo
 
-open `./public/index.html` or `./build/output.json` for the nice pretty version.
-
-
-## Deploy Demo
-
-Github pages deploy
-
-`git subtree push --prefix public origin gh-pages`
+~~正在施工~~
