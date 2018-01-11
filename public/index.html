@@ -101,7 +101,7 @@
 				});		
 				var hdr = document.querySelectorAll('table thead tr')[0];
 				var table = document.querySelectorAll('table tbody')[0];
-					hdr.innerHTML += '<th class="img">image</th>';
+				hdr.innerHTML += '<th class="img">image</th>';
 				for (var prop in data[0]) {
 					hdr.innerHTML += '<th class="'+prop+'">'+prop+'</th>';
 				}
@@ -110,7 +110,7 @@
 				data.forEach(function(c) {
 					tablehtml += '<tr>';
 					//生成img的src链接
-					var	img_loc = "../image/CN/CN_" + getRightFormat(c['id']) + ".png";
+					var	img_loc = "./image/CN/CN_" + getRightFormat(c['id']) + ".png";
 					//console.log(img_loc);
 					tablehtml += '<td><img src="'+img_loc+'"></td>';
 					for (var prop in c) {
