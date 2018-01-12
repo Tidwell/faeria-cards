@@ -84,8 +84,8 @@ if __name__ == "__main__":
     dict:{id,color,....}
     '''
     for dic in data:
-        dic['name'] += cardName[dic['id']]
-        dic['text'] += cardText[dic['id']]
+        dic['name'] += (' ' + cardName[dic['id']])
+        dic['text'] += (' ' + cardText[dic['id']])
     # print(data)
     storeJson(data)
     fin.close()
