@@ -24,6 +24,7 @@ function parseCardLine(line) {
 	}
 	return {
 		id: Number(parts[0]),
+		graph:'CN_' + id,
 		color: parts[1],
 		name: parts[2],
 		type: parts[3],

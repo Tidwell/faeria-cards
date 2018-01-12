@@ -1,25 +1,32 @@
-parse the cardlist from the faeria csv
---
+# Faeria Card Database (Faeria卡牌数据库)
 
-The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-cards/)
+[github page demo](https://zdf0221.github.io/faeria-cards/)
 
-##Install
+New Demo is deploying...
 
-Download the csv into `./tmp/cards.csv` from `https://github.com/abrakam/Faeria_Cards/blob/master/CardExport/merlin_shortened.csv`
+## Using 使用方式
 
-``npm install``
+1. Git Clone to local, open../public/index.html in Internet Browser, enjoy  
 
-##Run
-`npm start`
+    使用Git克隆到本地，在浏览器中打开../public/index.html，开始使用
 
+1. Onling Demo(Deploying)
 
-##View
+    在线使用（正在部署中）
 
-open `./public/index.html` or `./build/output.json` for the nice pretty version.
+## Future Updating Schedule 更新计划
 
+- [X] Support Simplified Chinese Card Search  支持中文文本搜索
 
-## Deploy Demo
+- [ ] Suooprt Card Builder  支持组卡器
 
-Github pages deploy
+- [ ] Support Export Deck to Image  支持导出卡组至图片
 
-`git subtree push --prefix public origin gh-pages`
+## Data Store Location 数据存放位置
+
+- Json： `./build/output.json`
+- image： `./image`
+
+## Online Demo 在线使用
+
+The lastest version can be found [on the github page demo](https://zdf0221.github.io/faeria-cards/)

@@ -1,0 +1,132 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<style>
+		body {
+			padding: 1em;
+		}
+		</style>
+		<link rel="stylesheet" type="text/css" href="./CSS/jquery.dataTables.min.css" />
+		<link rel="stylesheet" type="text/css" href="./CSS/fixedHeader.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="./CSS/responsive.dataTables.min.css">
+		<link rel="stylesheet" type="text/css" href="./CSS/bootstrap.min.css">
+		<style>
+			.name {
+				min-width: 10%;
+			}
+			thead .faeriaCost, thead .islands, thead .forests, thead .mountains, thead .deserts, thead .attack, thead .health, thead .questReward, thead .wild {
+				font-size: .75em;
+			}
+			.faeriaCost, .islands, .forests, .mountains, .deserts, .attack, .health, .questReward, .wild {
+				text-align: center;
+			}
+			.attack {
+				background-color: rgba(250,220,80,1);
+			}
+			.health {
+				background-color: rgba(190,115,115,1);
+			}
+			td.islands, td.forests, td.mountains, td.deserts, .faeriaCost, .attack, .health {
+				
+			}
+			.faeriaCost {
+				background-color: rgb(95,200,200);
+			}
+			.islands {
+				background-color: rgb(50,85,175);
+			}
+			.forests {
+				background-color: rgb(65,110,20);
+			}
+			.mountains {
+				background-color: rgb(175,35,75);
+			}
+			.deserts {
+				background-color: rgb(230,185,85);
+			}
+			.wild {
+				background: linear-gradient(to bottom, rgba(50,85,175,.25), rgba(65,110,20,.25), rgba(175,35,75,.25), rgba(230,185,85,.25));
+			}
+			img {
+				/*ATTENTION!!此处没有做响应式图片处理，在pad及移动端表现可能不佳*/
+				max-width: 200px;
+				max-height: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Faeria Card List</h1>
+		<hr />
+		<p>
+			<br />
+			Last generated: 2018/01/10 <br />
+			<a href="./build/output.json">Raw.json</a>
+			<a href="./image/CN">Abrakam Card Images</a> 
+		</p>
+		<!--
+		<select>
+			<option value="data">CSV parsed</option>
+			<option value="unityData">Unity parsed</option>
+		</select>
+		-->
+		<table class="display responsive" cellspacing="0" width="100%">
+			<thead>
+				<tr></tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		
+		<script src="./JS/jQuery.js"></script>
+		<script src="./JS/jquery.dataTables.min.js"></script>
+		<script src="./JS/dataTables.fixedHeader.min.js"></script>
+		<script src="./JS/dataTables.responsive.min.js"></script>
+		<script src="data.js"></script>
+		<script>
+			function getRightFormat(a) {
+				//将<100的编号统一成”001“形式
+				//console.log(a.toString().length)
+				if (a.toString().length == 1) return ("00" + a);
+				if (a.toString().length == 2) return ("0" + a);
+				return a;
+			}
+		</script>
+		<script>
+			$(function() {
+				data.forEach(function(c){
+					c.text = c.text.replace(/\{/g, '<strong>');
+					c.text = c.text.replace(/\}/g, '</strong>');
+					c.text = c.text.replace(/\|/g, ' ');
+				});		
+				var hdr = document.querySelectorAll('table thead tr')[0];
+				var table = document.querySelectorAll('table tbody')[0];
+				hdr.innerHTML += '<th class="img">image</th>';
+				for (var prop in data[0]) {
+					hdr.innerHTML += '<th class="'+prop+'">'+prop+'</th>';
+				}
+				
+				var tablehtml = '';
+				data.forEach(function(c) {
+					tablehtml += '<tr>';
+					//生成img的src链接
+					var	img_loc = "./image/CN/CN_" + getRightFormat(c['id']) + ".png";
+					//console.log(img_loc);
+					tablehtml += '<td><img src="'+img_loc+'"></td>';
+					for (var prop in c) {
+							tablehtml += '<td class="'+prop+'">'+c[prop]+'</td>';
+					}
+					tablehtml += '</tr>';
+				});
+				table.innerHTML = tablehtml;
+
+				$('table').DataTable({
+					lengthMenu: [[-1, 50], ['All', 50]],
+					responsive: true,
+					fixedHeader: true,
+					order: [[1, 'asc'], [4, 'asc'], [2, 'asc']]
+				});
+			});
+		</script>
+		<hr />
+		All cardnames/content/etc is owned by <a href="https://www.faeria.com/" target="_new">Abrakam</a>.
+	</body>
+</html>
