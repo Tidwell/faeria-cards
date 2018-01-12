@@ -16,7 +16,7 @@ New Demo is deploying...
 
 ## Future Updating Schedule 更新计划
 
-- [ ] Support Simplified Chinese Card Search  支持中文文本搜索
+- [X] Support Simplified Chinese Card Search  支持中文文本搜索
 
 - [ ] Suooprt Card Builder  支持组卡器
 
