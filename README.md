@@ -1,6 +1,6 @@
 # Faeria Card Database (Faeria卡牌数据库)
 
-The lastest version can be found [on the github page demo](http://tidwell.github.io/faeria-cards/)
+[github page demo](https://zdf0221.github.io/faeria-cards/)
 
 New Demo is deploying...
 
@@ -29,4 +29,4 @@ New Demo is deploying...
 
 ## Online Demo 在线使用
 
-On Working...  正在部署中...
+The lastest version can be found [on the github page demo](https://zdf0221.github.io/faeria-cards/)
