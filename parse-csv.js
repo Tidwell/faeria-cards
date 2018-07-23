@@ -3,6 +3,8 @@ var path2 = './build/output.json';
 
 var fs = require('fs');
 
+const getCards = require('./parse-card-text');
+
 function write(path, data) {
 	try {
 		fs.unlinkSync(path);
@@ -16,10 +18,12 @@ function write(path, data) {
 	});
 }
 
+const cardText = getCards();
+
 function parseCardLine(line) {
 	var parts = line.split(';');
-	var codexId = Number(parts[15]);
-	if (parts.length !== 17) {
+	var codexId = Number(parts[13]);
+	if (parts.length !== 15) {
 		return false;
 	}
 	return {
@@ -27,24 +31,25 @@ function parseCardLine(line) {
 		color: parts[1],
 		name: parts[2],
 		type: parts[3],
-		wild: parts[4],
+		creatureType: parts[4],
 		faeriaCost: Number(parts[5]),
-		islands: Number(parts[6]),
-		forests: Number(parts[7]),
-		mountains: Number(parts[8]),
-		deserts: Number(parts[9]),
-		attack: Number(parts[10]),
-		health: Number(parts[11]),
-		text: parts[12].replace(/"/g, ''), //strip double quotes
-		//b: parts[13], //unused
-		questReward: parts[14] === '2' ? true : false,
+		wild: Number(parts[6]),
+		islands: Number(parts[7]),
+		forests: Number(parts[8]),
+		mountains: Number(parts[9]),
+		deserts: Number(parts[10]),
+		attack: Number(parts[11]),
+		health: Number(parts[12]),
+		text: (cardText[Number(parts[0])] || '').replace(/"/g, ''), //strip double quotes
+		//b: parts[14], //unused
+		//questReward: parts[13] === '2' ? true : false,
 		codexId: codexId,
-		rarity: parts[16],
+		rarity: parts[14],
 		uncollectable: codexId === 106666	? true : false
 	};
 }
 
-var data = fs.readFileSync('./tmp/cards.csv', 'utf-8');
+var data = fs.readFileSync('./tmp/merlin_shortened.csv', 'utf-8');
 
 console.log(data);
 //solit it and trash the last one
